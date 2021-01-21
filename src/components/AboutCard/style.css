@@ -1,0 +1,29 @@
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.content {
+  padding: 80px 0;
+}
+
+.content > p {
+  line-height: 7px;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 800px) {
+  .content > p {
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .content > p {
+    line-height: 15px;
+  }
+}

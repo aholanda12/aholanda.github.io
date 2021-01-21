@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  flex-shrink: none;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background-image: linear-gradient(to right, #bad9e8,#27364d);
+  color: #27364d
+}
+
+.ficon {
+  float: right;
+  margin-right: 15px;
+  color: #bad9e8;
+}
+
+.ficon:hover {
+  color: white;
+}
